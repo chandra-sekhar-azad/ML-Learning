@@ -1,0 +1,67 @@
+Day 1: Introduction to Machine Learning
+•	Understanding what Machine Learning is
+•	Why Machine Learning is needed
+•	Types of ML: Supervised, Unsupervised, Reinforcement (overview)
+•	Basic ML workflow (problem → data → model → prediction)
+•	Task 1: Write a simple definition of ML in your own words
+•	Task 2: Identify one real-life problem that can be solved using ML
+•	Task 3: Define the problem statement, input data, and expected output for that problem
+
+
+🚀 Machine Learning Roadmap – Day 1 Completed
+
+Today I started my journey into Machine Learning and learned the fundamentals.
+
+📌 What is Machine Learning?
+
+Machine Learning is a method where computers learn from data and make predictions or decisions without being explicitly programmed.
+
+📌 Real-Life Problem I Chose
+
+Student Performance Prediction
+The goal is to predict whether a student will pass or fail based on their academic and background data. This can help teachers identify students who need early support.
+
+📌 Problem Statement
+
+To predict whether a student will pass the course using their study habits and academic information.
+
+📌 Input Data (Features):
+
+Study Hours per Week
+
+Attendance Rate
+
+Previous Grades
+
+Participation in Extracurricular Activities (Yes/No)
+
+Parent Education Level
+
+Student ID (only for identification)
+
+📌 Expected Output:
+
+Passed → Yes / No
+
+This is a classification problem because the output is categorical.
+
+
+Simple Work Flow : 
+
+Student Performance Prediction Project
+│
+├── Problem
+│   └── Predict whether a student will Pass or Fail
+│
+├── Data (Input to the model)
+│   ├── Study Hours per Week
+│   ├── Attendance Rate
+│   ├── Previous Grades
+│   ├── Extracurricular Activities (Yes/No)
+│   └── Parent Education Level
+│
+├── Model Training
+│   └── ML model learns patterns from past student data
+│
+└── Prediction (Output)
+    └── Passed → Yes / No
