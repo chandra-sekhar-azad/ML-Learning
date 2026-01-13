@@ -1,0 +1,58 @@
+# Day 2 – Dataset Collection & Understanding
+
+## Project: Student Performance Prediction (Pass/Fail)
+
+This project aims to predict whether a student will **pass or fail** based on academic and background features using Machine Learning.
+
+---
+
+## Task 1: Dataset Selection
+
+I searched and selected a **student-related dataset in CSV format** aligned with my problem statement.  
+The dataset contains student academic and background information suitable for predicting exam outcomes.
+
+---
+
+## Task 2: Features and Target Column
+
+### Features (Input Variables)
+
+| Feature | Type | Description |
+|--------|------|--------------|
+| Study Hours per Week | Numeric | Average study time per week |
+| Attendance Rate | Numeric (%) | Percentage of classes attended |
+| Previous Grades | Numeric | Past academic score |
+| Participation in Extracurricular Activities | Categorical | Yes / No |
+| Parent Education Level | Categorical / Ordinal | High School, Bachelor, Master, PhD |
+| Student ID | Identifier | Used only for identification (not for prediction) |
+
+### Target Variable (Output)
+
+| Column | Type | Description |
+|--------|------|--------------|
+| Passed | Binary | Yes = Pass, No = Fail |
+
+This is a **Binary Classification problem**.
+
+---
+
+## Task 3: Dataset Observations
+
+- Each row represents **one student**
+- Dataset contains both:
+  - **Numerical data** (study hours, attendance, grades)
+  - **Categorical data** (Yes/No, education levels)
+
+### Possible Data Issues Identified
+- Some study hours may contain **invalid values** (e.g., negative)
+- Some attendance rates may exceed **100%**
+- Some grades may be outside the expected range
+- Categorical features will require **encoding** before model training
+
+These issues highlight the importance of **data cleaning and preprocessing** before applying Machine Learning algorithms.
+
+---
+
+## Status
+Day 2 completed successfully.  
+Next: **Day 3 – NumPy Essentials for ML**
