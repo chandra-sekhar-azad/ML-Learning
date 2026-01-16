@@ -31,7 +31,6 @@ data = df[[
     "study_method",
     "extra_activities",
     "parent_edu_simple",
-    "age",
     "result"
 ]]
 
